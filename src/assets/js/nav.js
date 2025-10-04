@@ -9,6 +9,36 @@ const contact = document.querySelector('#Contact')
 
 const screenWidth = window.screen.width;
 
+//
+//    Handle Logo Display Based on Scroll Position
+//
+window.addEventListener('scroll', function() {
+    const scrollY = window.scrollY;
+    const body = document.body;
+    
+    if (scrollY === 0) {
+        // At top of page - show dark logo
+        body.classList.add('at-top');
+        body.classList.remove('scrolled');
+    } else {
+        // Scrolled down - show light logo
+        body.classList.add('scrolled');
+        body.classList.remove('at-top');
+    }
+});
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function() {
+    const scrollY = window.scrollY;
+    const body = document.body;
+    
+    if (scrollY === 0) {
+        body.classList.add('at-top');
+    } else {
+        body.classList.add('scrolled');
+    }
+});
+
 
 
 hamburgerMenu.addEventListener('click', function () {

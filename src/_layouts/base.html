@@ -46,12 +46,14 @@
         media="(prefers-color-scheme: dark)">
 
     <!-- Preload -->
-    <link rel="preload" as="image" href="/assets/logo-light.png">
+    <link rel="preload" as="image" href="/assets/images/logo_light.png">
     <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
 
     <link rel="stylesheet" href="/css/root.css">
-    <link rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/page-header.css">
 
     <link rel="preload" as="image" href="{{ preloadImg }}" />
 
@@ -73,7 +75,7 @@
 
 <body>
     <!--Screen reader skip main nav-->
-    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+    <a class="skip" aria-label="skip to main content" href="#main">Skip To Main Content</a>
 
     {% include "header.html" %}
     <main id="main">{{ content | safe }}</main>

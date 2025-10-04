@@ -1,15 +1,15 @@
 {
-  "name": "The Black Law Team",
-  "email": "info@theblacklawteam.com",
-  "phone": "555-LAW-TEAM",
-  "phoneFormatted": "(555) LAW-TEAM",
+  "name": "All Around Home Care",
+  "email": "info@allaroundhomecare.net",
+  "phone": "239-424-0019",
+  "phoneFormatted": "(239) 424-0019",
   "address": {
-    "lineOne": "Professional Law Office",
-    "lineTwo": "Legal Services Building",
-    "city": "Downtown",
-    "county": "Legal District",
-    "postcode": "12345",
-    "mapLink": "https://maps.app.goo.gl/4dJr5opfe3LLbqv48"
+    "lineOne": "1832 NW 7th Avenue",
+    "lineTwo": "Cape Coral, FL 33993",
+    "city": "Cape Coral",
+    "county": "Lee County",
+    "postcode": "33993",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=1832+NW+7th+Avenue+Cape+Coral+FL+33993"
   },
-  "domain": "www.theblacklawteam.com"
+  "domain": "www.allaroundhomecare.net"
 }

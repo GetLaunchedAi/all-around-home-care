@@ -30,11 +30,10 @@
         font-size: var(--topperFontSize);
         line-height: 1.2em;
         text-transform: uppercase;
-        text-align: inherit;
-        letter-spacing: 0.1em;
+        letter-spacing: .1em;
         font-weight: 700;
         color: var(--primary);
-        margin-bottom: 0.25rem;
+        margin-bottom: 1rem;
         display: block;
     }
     #cs-contact-242 .cs-title {
@@ -340,10 +339,6 @@
         /* lighten up the color of the text by 90%*/
         filter: brightness(1.9);
         color: var(--bodyTextColorWhite);
-    }
-    body.dark-mode #cs-contact-242 .cs-icon {
-        /* makes it so bright it turns white */
-        filter: brightness(900%);
     }
     body.dark-mode #cs-contact-242 .cs-header,
     body.dark-mode #cs-contact-242 .cs-link {

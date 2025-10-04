@@ -1,0 +1,265 @@
+---
+layout: 'base.html'
+description: 'Read customer reviews and testimonials for All Around Home Care LLC. See why our customers trust us for their dryer vent cleaning and repair needs in Florida.'
+metaTitle: 'Customer Reviews | All Around Home Care LLC - Dryer Vent Services'
+tagTitle: 'Reviews'
+title: 'Customer Reviews'
+preloadImg: '/images/landing.png'
+preloadCSS: '/css/reviews.css'
+permalink: 'reviews/'
+eleventyNavigation:
+  key: Reviews
+  order: 500
+---
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Reviews</h1>
+  {% image './src/images/landing.png', 'professional carpet cleaning team', '', 'lazy', '(max-width: 400px) 400px,
+  (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-reviews">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Customer Reviews</span>
+      <h1 class="cs-title">What Our Customers Say</h1>
+      <p class="cs-text">
+        Don't just take our word for it. Here's what real customers have to say about their experience with All Around Home Care LLC for dryer vent cleaning and repair services.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-modern">
+  <div class="cs-container">
+    <div class="reviews-grid">
+
+      <!-- Review 1 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"All Around Home Care did a great job. They were neat, fast, and thorough. I will definitely use them in the future!"</p>
+        <div class="reviewer">Susan Rugel</div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"Quick service, knowledgeable technician and reasonable price!"</p>
+        <div class="reviewer">Joseph Hitch</div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card featured">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"Dwaine came by on time and did an excellent job cleaning my dryer vent. He adjusted the vent hose so it would exhaust better, checked the roof discharge port and left the work space cleaner than before. I most highly recommend him and can't wait to see him next year; he put me on his calendar for next year's cleaning."</p>
+        <div class="reviewer">Kathleen F.</div>
+      </div>
+
+      <!-- Review 4 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"Dwaine was courteous on the phone. Arrived when he said he would. Took the time he said he'd need. Very reasonable price! Will call him again."</p>
+        <div class="reviewer">Mary Hagemann</div>
+      </div>
+
+      <!-- Review 5 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"Dwaine was amazing. Came right out as scheduled. Explained the importance of the thorough dryer vent cleaning to prevent fire. Did a thorough cleaning of the dryer vent including from up on the roof. Would 100% recommend him and his company."</p>
+        <div class="reviewer">Rhonda Dematteis</div>
+      </div>
+
+      <!-- Review 6 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"I called Dwaine at 9am for help at my elderly parents home. He was able to work me in same day. After completion of the job he explained in detail what he had done to clear the dryer vent. Punctual, quick and reasonable. Highly recommend."</p>
+        <div class="reviewer">Kevin Kreft</div>
+      </div>
+
+      <!-- Review 7 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"If you have recently had your roof replaced or repaired the roofers likely put a new dryer vent cap on which contains a screen. This screen quickly becomes clogged and your dryer has to work 3 times harder. Dwaine came and removed the screen and cleaned my vent and replaced a bad hose quickly and efficiently. Dryer works as it should again now! Highly recommend you have this done by All Around Home Care!"</p>
+        <div class="reviewer">Nancy Place</div>
+      </div>
+
+      <!-- Review 8 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"This is the second time I have used this company for our dryer vent cleaning. Dwayne did a thorough and professional job once again. They are punctual and respectful. They offer competitive prices. I will continue to use them and recommend them without hesitation."</p>
+        <div class="reviewer">Silvia C.</div>
+      </div>
+
+      <!-- Review 9 -->
+      <div class="review-card">
+        <div class="stars">
+          <span>★★★★★</span>
+        </div>
+        <p class="review-text">"Beyond impressed. I called to schedule a dryer vent cleaning at 8am and Dwaine was there that afternoon. He did an amazing job and the cost was not only affordable, but the exact amount quoted. Worth every penny and I will definitely be on next years schedule."</p>
+        <div class="reviewer">Christina Corso</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Modern Reviews Page Styles */
+  #hero-reviews {
+    padding: 120px 0 80px;
+    text-align: center;
+    max-width: 32.625rem !important;
+    margin: 0 auto;
+  }
+
+  #hero-reviews .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  body.dark-mode #hero-reviews .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+
+  #reviews-modern {
+    padding: 0 0 80px 0;
+  }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f0f0f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  body.dark-mode .review-card {
+    background: var(--medium);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  }
+
+  .review-card.featured {
+    border: 2px solid var(--primary);
+    background: linear-gradient(135deg, #fff 0%, #f8f9ff 100%);
+  }
+
+  .stars {
+    color: #ffc107;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .reviewer {
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  #trust-indicators {
+    padding: 60px 0;
+    background: var(--primary);
+    color: white;
+  }
+
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    text-align: center;
+  }
+
+  .trust-number {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .trust-label {
+    font-size: 16px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  #cta-reviews {
+    padding: 80px 0;
+    text-align: center;
+    background: #f8f9fa;
+  }
+
+  @media (max-width: 768px) {
+    .reviews-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .review-card {
+      padding: 20px;
+    }
+
+    .trust-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    .trust-number {
+      font-size: 36px;
+    }
+  }
+</style>
