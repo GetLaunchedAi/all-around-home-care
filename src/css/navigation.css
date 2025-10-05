@@ -653,36 +653,3 @@ body.dark-mode #navigation .logo img.dark {
   display: block !important;
   visibility: visible !important;
 }
-
-/* Scroll-based logo display - At top of page (scrollY = 0) */
-body.at-top #navigation .logo img.light {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-body.at-top #navigation .logo img.dark {
-  display: block !important;
-  visibility: visible !important;
-}
-
-/* Scroll-based logo display - When scrolled */
-body.scrolled #navigation .logo img.light {
-  display: block !important;
-  visibility: visible !important;
-}
-
-body.scrolled #navigation .logo img.dark {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-/* Override dark mode when at top - show dark logo even in dark mode */
-body.dark-mode.at-top #navigation .logo img.light {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-body.dark-mode.at-top #navigation .logo img.dark {
-  display: block !important;
-  visibility: visible !important;
-}
