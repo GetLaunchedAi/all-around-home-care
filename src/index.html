@@ -23,8 +23,31 @@ eleventyNavigation:
         With over 20 years of unwavering commitment to service excellence, we provide top-rated dryer vent cleaning, repair, and hose replacement services to ensure the safety and efficiency of your home.
       </p>
       <div class="cs-button-group">
-        <a href="/contact" class="cs-button-solid">Get a Free Estimate</a>
+        <!-- <a href="/contact" class="cs-button-solid">Get a Free Estimate</a> -->
       </div>
+    </div>
+    
+    <!-- Hero Contact Form -->
+    <div class="cs-hero-form">
+      <div class="cs-form-header">
+        <h3 class="cs-form-title">Get Your Free Estimate</h3>
+        <p class="cs-form-text">Quick response guaranteed</p>
+      </div>
+      <form id="cs-hero-form" name="Hero Contact Form" method="post" action="https://submit-form.com/6RVurfodN">
+        <label class="cs-label">
+          <input class="cs-input" required type="text" name="name" placeholder="Your Name">
+        </label>
+        <label class="cs-label">
+          <input class="cs-input" required type="email" name="email" placeholder="Your Email">
+        </label>
+        <label class="cs-label">
+          <input class="cs-input" required type="tel" name="phone" placeholder="Your Phone">
+        </label>
+        <label class="cs-label">
+          <textarea class="cs-input cs-textarea" required name="Message" placeholder="Tell us about your dryer vent needs..."></textarea>
+        </label>
+        <button class="cs-button-solid cs-submit" type="submit">Get Free Estimate</button>
+      </form>
     </div>
   </div>
 
@@ -130,6 +153,49 @@ eleventyNavigation:
 </section>
 
 <!-- ============================================ -->
+<!--                 Service Area Map              -->
+<!-- ============================================ -->
+
+<section id="service-area-map">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Service Areas</span>
+      <h2 class="cs-title">Serving Southwest Florida</h2>
+      <p class="cs-text">
+        We proudly serve Lee County, Collier County, Punta Gorda, and surrounding areas in Southwest Florida. Our experienced team is ready to provide professional dryer vent services to your home or business.
+      </p>
+    </div>
+    <div class="cs-map-wrapper">
+      <div class="cs-map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1874.5!2d-81.9495!3d26.6406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88db1b8b8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sCape%20Coral%2C%20FL!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+          width="100%" 
+          height="400" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="All Around Home Care Service Area Map">
+        </iframe>
+      </div>
+      <div class="cs-service-areas">
+        <h3 class="cs-areas-title">Areas We Serve</h3>
+        <ul class="cs-areas-list">
+          <li class="cs-area-item">Cape Coral</li>
+          <li class="cs-area-item">Fort Myers</li>
+          <li class="cs-area-item">Naples</li>
+          <li class="cs-area-item">Punta Gorda</li>
+          <li class="cs-area-item">Lehigh Acres</li>
+          <li class="cs-area-item">Bonita Springs</li>
+          <li class="cs-area-item">Estero</li>
+          <li class="cs-area-item">North Fort Myers</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
 <!--                 Side By Side                   -->
 <!-- ============================================ -->
 
@@ -192,6 +258,63 @@ eleventyNavigation:
       </li>
     </ul>
     <a href="/reviews" class="button-solid" style="margin-top: 3rem;">Read More</a>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Leave a Review                 -->
+<!-- ============================================ -->
+
+<section id="leave-review">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Share Your Experience</span>
+      <h2 class="cs-title">Leave a Review</h2>
+      <p class="cs-text">
+        We value your feedback! If you've used our dryer vent services, please take a moment to share your experience. Your review helps other customers make informed decisions and helps us continue to improve our services.
+      </p>
+    </div>
+    
+    <div class="cs-review-form-wrapper">
+      <form id="cs-review-form" name="Review Form" method="post" action="https://submit-form.com/6RVurfodN">
+        <div class="cs-form-row">
+          <label class="cs-label">
+            <input class="cs-input" required type="text" name="name" placeholder="Your Name">
+          </label>
+          <label class="cs-label">
+            <input class="cs-input" required type="email" name="email" placeholder="Your Email">
+          </label>
+        </div>
+        
+        <div class="cs-form-row">
+          <label class="cs-label">
+            <select class="cs-input cs-select" name="service" required>
+              <option value="">Select Service Used</option>
+              <option value="Dryer Vent Cleaning">Dryer Vent Cleaning</option>
+              <option value="Dryer Vent Repair">Dryer Vent Repair</option>
+              <option value="Dryer Hose Replacement">Dryer Hose Replacement</option>
+              <option value="Multiple Services">Multiple Services</option>
+            </select>
+          </label>
+          <label class="cs-label">
+            <select class="cs-input cs-select" name="rating" required>
+              <option value="">Your Rating</option>
+              <option value="5">★★★★★ Excellent</option>
+              <option value="4">★★★★☆ Very Good</option>
+              <option value="3">★★★☆☆ Good</option>
+              <option value="2">★★☆☆☆ Fair</option>
+              <option value="1">★☆☆☆☆ Poor</option>
+            </select>
+          </label>
+        </div>
+        
+        <label class="cs-label cs-label-message">
+          <textarea class="cs-input cs-textarea" required name="Message" placeholder="Tell us about your experience with All Around Home Care..."></textarea>
+        </label>
+        
+        <button class="cs-button-solid cs-submit" type="submit">Submit Review</button>
+      </form>
+    </div>
   </div>
 </section>
 

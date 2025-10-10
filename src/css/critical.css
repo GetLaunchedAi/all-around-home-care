@@ -25,6 +25,7 @@
     align-items: center;
     /* 120px - 465px */
     gap: clamp(7.5rem, 24vw, 29.0625rem);
+    z-index: 9999 !important;
   }
   #hero-2042 .cs-content {
     text-align: center;
@@ -160,6 +161,7 @@
     padding-right: 6.25rem;
     flex-direction: row;
     justify-content: flex-start;
+    z-index: 9999 !important;
   }
   #hero-2042 .cs-content {
     text-align: left;
