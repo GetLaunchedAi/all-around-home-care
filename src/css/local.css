@@ -1415,9 +1415,17 @@
   max-width: 80rem;
   margin: 0 auto;
 }
+#service-area-map .cs-text {
+  max-width: 46.875rem;
+  margin: 0 auto;
+}
 
 #leave-review .cs-container {
   max-width: 80rem;
+  margin: 0 auto;
+}
+#leave-review .cs-text {
+  max-width: 46.875rem;
   margin: 0 auto;
 }
 
