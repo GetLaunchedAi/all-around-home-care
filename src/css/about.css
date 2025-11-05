@@ -146,6 +146,55 @@
   #sbs .button-solid {
     margin-top: 2rem;
   }
+
+  #sbs .cs-button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  #sbs .button-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    width: auto;
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    min-height: 2.875rem;
+    text-align: center;
+    padding: 0 1.5rem;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    min-width: 9.375rem;
+  }
+
+  #sbs .button-phone .phone-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: var(--primary);
+    flex-shrink: 0;
+    transition: stroke 0.3s;
+  }
+
+  #sbs .button-phone:hover {
+    background-color: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+  }
+
+  #sbs .button-phone:hover .phone-icon {
+    stroke: #fff;
+  }
 }
 
 /* Desktop - 1024px */
@@ -270,12 +319,72 @@
     width: 96%;
     max-width: 37.375rem;
   }
+
+  #cta .cta-button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #cta .button-phone-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    width: auto;
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    min-height: 2.875rem;
+    text-align: center;
+    padding: 0 1.5rem;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    min-width: 9.375rem;
+  }
+
+  #cta .button-phone-cta .phone-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: var(--primary);
+    flex-shrink: 0;
+    transition: stroke 0.3s;
+  }
+
+  #cta .button-phone-cta:hover {
+    background-color: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+  }
+
+  #cta .button-phone-cta:hover .phone-icon {
+    stroke: #fff;
+  }
 }
 
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #cta {
     padding: 10.5rem 0;
+  }
+
+  #sbs .cs-button-group {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  #cta .cta-button-group {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
   }
 }
 

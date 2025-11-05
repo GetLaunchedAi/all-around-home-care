@@ -206,9 +206,28 @@
         color: var(--bodyTextColor);
         position: relative;
     }
-    #cs-contact-242 .cs-link:hover:before {
-        width: 100%;
-    }
+  #cs-contact-242 .cs-link:hover:before {
+    width: 100%;
+  }
+
+  #cs-contact-242 .cs-phone-icon {
+    stroke: var(--primary);
+    transition: stroke 0.3s;
+  }
+
+  #cs-contact-242 .cs-li:hover .cs-phone-icon {
+    stroke: var(--primary);
+    transform: scale(1.1);
+  }
+
+  #cs-contact-242 .cs-phone-link {
+    color: var(--bodyTextColor);
+    transition: color 0.3s;
+  }
+
+  #cs-contact-242 .cs-phone-link:hover {
+    color: var(--primary);
+  }
     #cs-contact-242 .cs-link:before {
         /* top right box */
         content: "";
@@ -343,6 +362,14 @@
     body.dark-mode #cs-contact-242 .cs-header,
     body.dark-mode #cs-contact-242 .cs-link {
         color: var(--bodyTextColorWhite);
+    }
+
+    body.dark-mode #cs-contact-242 .cs-phone-link {
+        color: var(--bodyTextColorWhite);
+    }
+
+    body.dark-mode #cs-contact-242 .cs-phone-link:hover {
+        color: var(--primary);
     }
 }
 

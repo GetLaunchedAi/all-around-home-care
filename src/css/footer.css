@@ -6,7 +6,8 @@
 @media only screen and (min-width: 0em) {
   #footer {
     background: #1C1C1C;
-    padding: 5.25rem 0 1.25rem;
+    padding: 5.25rem 0 3.5rem;
+    margin-bottom: 0;
     font-size: min(4vw, 1.2em);
   }
 
@@ -104,6 +105,108 @@
     color: var(--primary);
   }
 
+  #footer .location-footer-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  #footer .location-footer-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.16666667em;
+    transition: color .3s;
+  }
+
+  #footer .location-footer-link:hover {
+    color: var(--primary);
+  }
+
+  #footer .location-footer-link:before {
+    display: none;
+  }
+
+  #footer .location-footer-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: var(--primary);
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+    transition: stroke 0.3s;
+  }
+
+  #footer .location-footer-link:hover .location-footer-icon {
+    stroke: var(--primary);
+  }
+
+  #footer .phone-footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footer .phone-footer-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #footer .phone-footer-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: var(--primary);
+    flex-shrink: 0;
+    transition: stroke 0.3s;
+  }
+
+  #footer .phone-footer-link:hover .phone-footer-icon {
+    stroke: var(--primary);
+  }
+
+  #footer .phone-footer-link:hover {
+    color: var(--primary);
+  }
+
+  #footer .email-footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footer .email-footer-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.16666667em;
+    transition: color .3s;
+  }
+
+  #footer .email-footer-link:hover {
+    color: var(--primary);
+  }
+
+  #footer .email-footer-link:before {
+    display: none;
+  }
+
+  #footer .email-footer-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: var(--primary);
+    flex-shrink: 0;
+    transition: stroke 0.3s;
+  }
+
+  #footer .email-footer-link:hover .email-footer-icon {
+    stroke: var(--primary);
+  }
+
   #footer .right-section .lists ul h2 {
     color: #fff;
     font-size: 1.125rem;
@@ -144,6 +247,7 @@
     margin: auto;
     text-align: center;
     margin-top: 6.25rem;
+    margin-bottom: 1.25rem;
     line-height: 2.25rem;
     font-size: 1rem;
   }
@@ -168,6 +272,7 @@
 @media only screen and (min-width: 64em) {
   #footer {
     font-size: min(1.2vw, 1em);
+    padding-bottom: 4rem; /* Match banner height on desktop */
   }
 
   #footer .container {
@@ -232,6 +337,23 @@
     margin-bottom: 0;
   }
 
+  #footer .location-footer-item {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #footer .location-footer-link {
+    justify-content: flex-start;
+  }
+
+  #footer .email-footer-item {
+    justify-content: flex-start;
+  }
+
+  #footer .email-footer-link {
+    justify-content: flex-start;
+  }
+
   #footer .right-section .lists ul li a {
     position: relative;
   }
@@ -251,6 +373,14 @@
 
   #footer .right-section .lists ul li a:hover:before {
     width: 100%;
+  }
+
+  #footer .phone-footer-item {
+    justify-content: flex-start;
+  }
+
+  #footer .phone-footer-link {
+    justify-content: flex-start;
   }
 
   #footer .right-section .buttons {

@@ -10,6 +10,11 @@
   --primaryDark: #004b8a;
   --primaryLight: #66b3ff;
 
+  /* Teal/Mint/Cyan Colors for Phone */
+  --phoneTeal: #20B2AA;
+  --phoneCyan: #00CED1;
+  --phoneMint: #48D1CC;
+
   /* Text Colors */
   --bodyTextColor: #4E4B66;
   --bodyTextColorWhite: #FAFBFC;
