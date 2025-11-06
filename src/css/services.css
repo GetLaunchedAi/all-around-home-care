@@ -976,6 +976,101 @@ body.dark-mode .cta-text {
 }
 
 /*-- -------------------------- -->
+<---       Video Section         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #video-section {
+    padding: var(--sectionPadding);
+    background-color: #f7f7f7;
+  }
+
+  body.dark-mode #video-section {
+    background-color: var(--dark);
+  }
+
+  #video-section .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(2rem, 4vw, 3rem);
+  }
+
+  #video-section .cs-content {
+    text-align: center;
+    width: 100%;
+    max-width: 48.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #video-section .cs-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0;
+    color: var(--headerColor);
+  }
+
+  #video-section .cs-text {
+    font-size: clamp(1rem, 2vw, 1.125rem);
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--bodyTextColor);
+    max-width: 40rem;
+  }
+
+  #video-section .cs-video-container {
+    width: 100%;
+    max-width: 56.25rem;
+    position: relative;
+    border-radius: clamp(1rem, 2vw, 1.5rem);
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #000;
+  }
+
+  #video-section .cs-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+  }
+
+  body.dark-mode #video-section .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+
+  body.dark-mode #video-section .cs-text {
+    color: var(--bodyTextColorWhite);
+    opacity: 0.8;
+  }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #video-section .cs-video-container {
+    max-width: 60rem;
+  }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #video-section .cs-video-container {
+    max-width: 70rem;
+  }
+}
+
+/*-- -------------------------- -->
 <---       Service Area Map      -->
 <--- -------------------------- -*/
 
