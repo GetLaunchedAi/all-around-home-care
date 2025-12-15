@@ -68,6 +68,7 @@
 }
 
 /* Base Styles */
+
 *,
 *:before,
 *:after {
@@ -171,7 +172,10 @@ button:hover {
   box-sizing: border-box !important;
   min-width: 9.375rem !important;
 }
-
+.cs-button-solid.inverted {
+  background-color: #fff !important;
+  color: var(--primary) !important;
+}
 .button-solid:hover,
 .cs-button-solid:hover {
   color: #fff !important;
@@ -241,4 +245,15 @@ body.dark-mode .light {
 
 body.dark-mode .dark {
   display: block !important;
+}
+
+/* Mobile Utility Class */
+.mobile {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: block !important;
+  }
 }
