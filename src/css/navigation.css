@@ -277,7 +277,7 @@ body.dark-mode #phone-banner .phone-banner-link {
     border: none;
     height: 3rem;
     width: 3rem;
-    z-index: 100;
+    z-index: 100000;
     display: block;
     background: transparent;
     padding: 0;
